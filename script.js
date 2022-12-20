@@ -4,8 +4,6 @@ const btnCopy = document.querySelector(".copiar");
 btnCopy.style.display = "none"
 
 
-//Encriptar mensaje
-
 function btnEncriptar() {
     const textoEncriptado = encriptar(inputTexto.value)
     mensaje.value = textoEncriptado
@@ -30,8 +28,6 @@ function encriptar(stringEncriptada) {
 }
 
 
-//Desencriptar mensaje
-
 function btnDesencriptar() {
     const textoEncriptado = desencriptar(inputTexto.value)
     mensaje.value = textoEncriptado
@@ -50,9 +46,6 @@ function desencriptar(stringDesencriptada) {
 
     return stringDesencriptada;
 }
-
-
-//botón copiar
 
 function copiar() {
     
